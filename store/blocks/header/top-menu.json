@@ -33,10 +33,10 @@
       "highlight": false,
       "itemProps": {
         "type": "external",
-        "href": "http://vtex.com",
-        "noFollow": false,
-        "tagTitle": "visit vtex.com",
-        "text": "visit vtex.com"
+        "href": "https://www.agenciaeplus.com.br/",
+        "noFollow": true,
+        "tagTitle": "Acesse o site da Eplus",
+        "text": "Acesse o site da Eplus"
       }
     }
   }
