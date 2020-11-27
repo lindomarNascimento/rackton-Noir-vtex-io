@@ -1,3 +1,23 @@
 .submenuWrapper{
     background:#000;
 }
+
+.menuItem--vinho {
+    background: red
+}
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+    position: absolute;
+    height: 160.25px;
+    width: 100%;
+    top: 50px;
+    padding: 0 70px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+    background-color: transparent!important;
+}
+
+:global(.vtex-store-components-3-x-logoImage) {
+    width: 120px;
+}
