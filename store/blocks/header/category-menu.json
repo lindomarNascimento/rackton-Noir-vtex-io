@@ -176,12 +176,11 @@
       "id": "menu-item-about-us",
       "type": "custom",
       "iconId": null,
-      "highlight": false,
+	  "highlight": false,
+	  "blockClass": "subitem-title",
       "itemProps": {
         "type": "internal",
-        "href": "/about-us",
         "noFollow": true,
-        "tagTitle": "About us",
         "text": "Faixa de Preco"
       }
     }
@@ -267,11 +266,10 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "subitem-title",
       "itemProps": {
         "type": "internal",
-        "href": "/about-us",
         "noFollow": true,
-        "tagTitle": "About us",
         "text": "Tipo"
       }
     }
@@ -381,22 +379,21 @@
       }
     }
   },
-  "menu-item#cabernet": {
+  "menu-item#titleUvas": {
     "props": {
       "id": "menu-item-about-us",
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "subitem-title",
       "itemProps": {
         "type": "internal",
-        "href": "/about-us",
         "noFollow": true,
-        "tagTitle": "About us",
         "text": "Uvas Tintas"
       }
     }
   },
-  "menu-item#titleUvas": {
+  "menu-item#cabernet": {
     "props": {
       "id": "menu-item-about-us",
       "type": "custom",
@@ -567,11 +564,10 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "subitem-title",
       "itemProps": {
         "type": "internal",
-        "href": "/about-us",
         "noFollow": true,
-        "tagTitle": "About us",
         "text": "Uvas Brancas"
       }
     }
@@ -687,11 +683,10 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "subitem-title",
       "itemProps": {
         "type": "internal",
-        "href": "/about-us",
         "noFollow": true,
-        "tagTitle": "About us",
         "text": "Pais"
       }
     }
