@@ -28,9 +28,6 @@
     }
   },
   "notification.bar#home": {
-    "props": {
-      // "content": "exemplo"
-    }
   },
   "flex-layout.row#3-desktop": {
     "props": {

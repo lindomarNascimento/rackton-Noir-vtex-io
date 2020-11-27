@@ -14,6 +14,7 @@
       "id": "menu-item-category-apparel",
       "type": "custom",
       "iconId": null,
+      "blockClass": "vinho",
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -26,69 +27,6 @@
     "blocks": [
       "vtex.menu@2.x:submenu#more"
     ]
-  },
-  "vtex.menu@2.x:submenu#category-apparel": {
-    "props": {
-      "width": "auto"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#category-apparel"
-    ]
-  },
-  "vtex.menu@2.x:menu#category-apparel": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
-    ]
-  },
-  "menu-item#category-apparel-clothing": {
-    "props": {
-      "id": "menu-item-category-apparel-clothing",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/clothing/",
-        "noFollow": false,
-        "tagTitle": "Clothing",
-        "text": "bla bla bla"
-      }
-    }
-  },
-  "menu-item#category-apparel-accessories": {
-    "props": {
-      "id": "menu-item-category-apparel-accessories",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/accessories/",
-        "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
-      }
-    }
-  },
-  "menu-item#category-apparel-eyeglasses": {
-    "props": {
-      "id": "menu-item-category-apparel-eyeglasses",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/eyeglasses/",
-        "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
-      }
-    }
   },
   "menu-item#category-home": {
     "props": {
@@ -118,10 +56,7 @@
         "tagTitle": "More",
         "text": "Gourmet & Acessórios"
       }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#more"
-    ]
+    }
   },
   "vtex.menu@2.x:submenu#more": {
     "props": {
@@ -169,12 +104,18 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#about-us",
-      "menu-item#ate",
-      "menu-item#faixa1",
-      "menu-item#faixa2",
-      "menu-item#faixa3",
-      "menu-item#faixa4"
+      "menu-item#titleUvas",
+      "menu-item#cabernet",
+      "menu-item#merlot",
+      "menu-item#syrah",
+      "menu-item#pinot",
+      "menu-item#carmene",
+      "menu-item#malbec",
+      "menu-item#cabernetFranc",
+      "menu-item#sangiovese",
+      "menu-item#primitivo",
+      "menu-item#tempranilho",
+      "menu-item#mesclas"
     ]
   },
   "vtex.menu@2.x:menu#uvaBrancas": {
@@ -182,12 +123,14 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#about-us",
-      "menu-item#ate",
-      "menu-item#faixa1",
-      "menu-item#faixa2",
-      "menu-item#faixa3",
-      "menu-item#faixa4"
+      "menu-item#titleUvaBranca",
+      "menu-item#chardonnay",
+      "menu-item#sauvignon",
+      "menu-item#viognier",
+      "menu-item#chenin",
+      "menu-item#pinot",
+      "menu-item#alvarinho",
+      "menu-item#mesclas_blends"
     ]
   },
   "vtex.menu@2.x:menu#pais": {
@@ -195,12 +138,19 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#about-us",
-      "menu-item#ate",
-      "menu-item#faixa1",
-      "menu-item#faixa2",
-      "menu-item#faixa3",
-      "menu-item#faixa4"
+      "menu-item#titlePais",
+      "menu-item#argentina",
+      "menu-item#africaSul",
+      "menu-item#australia",
+      "menu-item#brasil",
+      "menu-item#california",
+      "menu-item#chile",
+      "menu-item#espanha",
+      "menu-item#franca",
+      "menu-item#italia",
+      "menu-item#nova",
+      "menu-item#portugal",
+      "menu-item#uruguai"
     ]
   },
   "flex-layout.col#menu-more-2": {
@@ -220,7 +170,7 @@
       "menu-item#faixa3",
       "menu-item#faixa4"
     ]
-  }, 
+  },
   "menu-item#about-us": {
     "props": {
       "id": "menu-item-about-us",
@@ -337,7 +287,7 @@
         "href": "/about-us",
         "noFollow": true,
         "tagTitle": "About us",
-        "text": "Tipo"
+        "text": "Branco"
       }
     }
   },
@@ -352,7 +302,7 @@
         "href": "/about-us",
         "noFollow": true,
         "tagTitle": "About us",
-        "text": "Tipo"
+        "text": "Tinto"
       }
     }
   },
@@ -367,7 +317,7 @@
         "href": "/about-us",
         "noFollow": true,
         "tagTitle": "About us",
-        "text": "Tipo"
+        "text": "Espumante Branco"
       }
     }
   },
@@ -382,7 +332,7 @@
         "href": "/about-us",
         "noFollow": true,
         "tagTitle": "About us",
-        "text": "Tipo"
+        "text": "Espumante Rosé"
       }
     }
   },
@@ -397,7 +347,7 @@
         "href": "/about-us",
         "noFollow": true,
         "tagTitle": "About us",
-        "text": "Tipo"
+        "text": "Fortificado"
       }
     }
   },
@@ -412,7 +362,7 @@
         "href": "/about-us",
         "noFollow": true,
         "tagTitle": "About us",
-        "text": "Tipo"
+        "text": "Frisante Branco"
       }
     }
   },
@@ -427,8 +377,503 @@
         "href": "/about-us",
         "noFollow": true,
         "tagTitle": "About us",
-        "text": "Tipo"
+        "text": "Rosé "
       }
     }
-  }  
+  },
+  "menu-item#cabernet": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Uvas Tintas"
+      }
+    }
+  },
+  "menu-item#titleUvas": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Uvas Tintas"
+      }
+    }
+  },
+  "menu-item#merlot": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Merlot"
+      }
+    }
+  },
+  "menu-item#syrah": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Syrah/ Shiraz"
+      }
+    }
+  },
+  "menu-item#pinot": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Pinot-Noir"
+      }
+    }
+  },
+  "menu-item#carmene": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Carmenère"
+      }
+    }
+  },
+  "menu-item#malbec": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Malbec"
+      }
+    }
+  },
+  "menu-item#cabernetFranc": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Cabernet Franc"
+      }
+    }
+  },
+  "menu-item#sangiovese": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Sangiovese"
+      }
+    }
+  },
+  "menu-item#primitivo": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Primitivo"
+      }
+    }
+  },
+  "menu-item#tempranilho": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Tempranilho"
+      }
+    }
+  },
+  "menu-item#mesclas": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Mesclas / Blends/ Cortes"
+      }
+    }
+  },
+  "menu-item#titleUvaBranca": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Uvas Brancas"
+      }
+    }
+  },
+  "menu-item#chardonnay": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Chardonnay"
+      }
+    }
+  },
+  "menu-item#sauvignon": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Sauvignon Blanc"
+      }
+    }
+  },
+  "menu-item#viognier": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Viognier"
+      }
+    }
+  },
+  "menu-item#chenin": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Chernin Blanc"
+      }
+    }
+  },
+  "menu-item#pinot": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Pinot Gringio"
+      }
+    }
+  },
+  "menu-item#alvarinho": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Alvarinho"
+      }
+    }
+  },
+  "menu-item#mesclas_blends": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Mesclas / Blends/ Cortes"
+      }
+    }
+  },
+  "menu-item#titlePais": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Pais"
+      }
+    }
+  },
+  "menu-item#argentina": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Argentina"
+      }
+    }
+  },
+  "menu-item#africaSul": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "África do Sul"
+      }
+    }
+  },
+  "menu-item#australia": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Austrália"
+      }
+    }
+  },
+  "menu-item#brasil": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Brasil"
+      }
+    }
+  },
+  "menu-item#california": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "California"
+      }
+    }
+  },
+  "menu-item#chile": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Chile"
+      }
+    }
+  },
+  "menu-item#espanha": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Espanha"
+      }
+    }
+  },
+  "menu-item#franca": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "França"
+      }
+    }
+  },
+  "menu-item#italia": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Itália"
+      }
+    }
+  },
+  "menu-item#nova": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Nova Zelândia"
+      }
+    }
+  },
+  "menu-item#portugal": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Portugal"
+      }
+    }
+  },
+  "menu-item#uruguai": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Uruguai"
+      }
+    }
+  }
 }
