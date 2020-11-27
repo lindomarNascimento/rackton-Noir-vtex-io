@@ -89,7 +89,6 @@
   "flex-layout.col#login": {
     "props": {
       "optionsTitle": "LOG-IN",
-      "accessCodeTitle": "LOG-IN",
       "accessCodeTitle": "Acess Code LOG-IN",
       "emailPlaceholder": "e-mail",
       "passwordPlaceholder": "password",
@@ -101,8 +100,9 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
-      "width": "180"
+      "url": "https://agenciaeplus.vtexassets.com/assets/vtex.file-manager-graphql/images/ad3711be-5d7f-4ce9-9ca4-50197545dd38___473e18a8a4305b2d4baae443bdf024ae.png",
+	  "width": "100",
+	  "height": "70"
     }
   },
   "header-layout.mobile": {
@@ -143,9 +143,9 @@
 
   "logo#mobile": {
     "props": {
-      "title": "Logo",
+      "title": "Noir",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "url": "https://agenciaeplus.vtexassets.com/assets/vtex.file-manager-graphql/images/ad3711be-5d7f-4ce9-9ca4-50197545dd38___473e18a8a4305b2d4baae443bdf024ae.png",
       "width": "70"
     }
   }
