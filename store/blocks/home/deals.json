@@ -3,8 +3,7 @@
     "children": [
       "flex-layout.col#deals1",
       "flex-layout.col#deals2",
-      "flex-layout.col#deals3",
-      "flex-layout.col#deals4"
+      "flex-layout.col#deals3"
     ],
     "props": {
       "blockClass": "deals"
@@ -25,7 +24,7 @@
   },
   "rich-text#deal1": {
     "props": {
-      "text": "Free shipping",
+      "text": "Pagamento em até 6x sem juros no cartão de crédito",
       "blockClass": "deals"
     }
   },
@@ -43,7 +42,7 @@
   },
   "rich-text#deal2": {
     "props": {
-      "text": "One day delivery",
+      "text": "Desconto de até 5% em pagamentos realizados por boleto bancário",
       "blockClass": "deals"
     }
   },
@@ -55,31 +54,13 @@
   },
   "image#deal3": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/store.png",
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
       "maxHeight": "24px"
     }
   },
   "rich-text#deal3": {
     "props": {
-      "text": "Pick up in store",
-      "blockClass": "deals"
-    }
-  },
-  "flex-layout.col#deals4": {
-    "children": [
-      "image#deal4",
-      "rich-text#deal4"
-    ]
-  },
-  "image#deal4": {
-    "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/coupon.png",
-      "maxHeight": "24px"
-    }
-  },
-  "rich-text#deal4": {
-    "props": {
-      "text": "Exclusive deals",
+      "text": "Frete Grátis em pedidos com valor acima de R$ 500 para as regiôes Sul e Suldeste",
       "blockClass": "deals"
     }
   }
