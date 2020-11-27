@@ -20,11 +20,11 @@
         "href": "/apparel---accessories/",
         "noFollow": false,
         "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "text": "Vinhos"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
+      "vtex.menu@2.x:submenu#more"
     ]
   },
   "vtex.menu@2.x:submenu#category-apparel": {
@@ -56,7 +56,7 @@
         "href": "/apparel---accessories/clothing/",
         "noFollow": false,
         "tagTitle": "Clothing",
-        "text": "Clothing"
+        "text": "bla bla bla"
       }
     }
   },
@@ -101,7 +101,7 @@
         "href": "/home---decor/",
         "noFollow": false,
         "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "text": "Sommeliers"
       }
     }
   },
@@ -116,7 +116,7 @@
         "href": "#",
         "noFollow": true,
         "tagTitle": "More",
-        "text": "More"
+        "text": "Gourmet & Acessórios"
       }
     },
     "blocks": [
@@ -134,12 +134,73 @@
   "flex-layout.row#menu-more": {
     "children": [
       "flex-layout.col#menu-more-1",
+      "vtex.menu@2.x:menu#type",
+      "vtex.menu@2.x:menu#uvaTintas",
+      "vtex.menu@2.x:menu#uvaBrancas",
+      "vtex.menu@2.x:menu#pais",
       "flex-layout.col#menu-more-2"
     ]
   },
   "flex-layout.col#menu-more-1": {
+    "props": {
+      "orientation": "columns"
+    },
     "children": [
       "vtex.menu@2.x:menu#more"
+    ]
+  },
+  "vtex.menu@2.x:menu#type": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#type",
+      "menu-item#branco",
+      "menu-item#tinto",
+      "menu-item#espumanteBranco",
+      "menu-item#espumanteRose",
+      "menu-item#fortificado",
+      "menu-item#frisante",
+      "menu-item#rose"
+    ]
+  },
+  "vtex.menu@2.x:menu#uvaTintas": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#about-us",
+      "menu-item#ate",
+      "menu-item#faixa1",
+      "menu-item#faixa2",
+      "menu-item#faixa3",
+      "menu-item#faixa4"
+    ]
+  },
+  "vtex.menu@2.x:menu#uvaBrancas": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#about-us",
+      "menu-item#ate",
+      "menu-item#faixa1",
+      "menu-item#faixa2",
+      "menu-item#faixa3",
+      "menu-item#faixa4"
+    ]
+  },
+  "vtex.menu@2.x:menu#pais": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#about-us",
+      "menu-item#ate",
+      "menu-item#faixa1",
+      "menu-item#faixa2",
+      "menu-item#faixa3",
+      "menu-item#faixa4"
     ]
   },
   "flex-layout.col#menu-more-2": {
@@ -152,9 +213,14 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#about-us"
+      "menu-item#about-us",
+      "menu-item#ate",
+      "menu-item#faixa1",
+      "menu-item#faixa2",
+      "menu-item#faixa3",
+      "menu-item#faixa4"
     ]
-  },
+  }, 
   "menu-item#about-us": {
     "props": {
       "id": "menu-item-about-us",
@@ -166,8 +232,203 @@
         "href": "/about-us",
         "noFollow": true,
         "tagTitle": "About us",
-        "text": "About us"
+        "text": "Faixa de Preco"
       }
     }
-  }
+  },
+  "menu-item#ate": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Até 60x"
+      }
+    }
+  },
+  "menu-item#faixa1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "De R$ 60 a R$ 100"
+      }
+    }
+  },
+  "menu-item#faixa2": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "De R$ 100 a R$ 150"
+      }
+    }
+  },
+  "menu-item#faixa3": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "De R$ 150 a R$ 300"
+      }
+    }
+  },
+  "menu-item#faixa4": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Acima de 300"
+      }
+    }
+  },
+  "menu-item#type": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Tipo"
+      }
+    }
+  },
+  "menu-item#branco": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Tipo"
+      }
+    }
+  },
+  "menu-item#tinto": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Tipo"
+      }
+    }
+  },
+  "menu-item#espumanteBranco": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Tipo"
+      }
+    }
+  },
+  "menu-item#espumanteRose": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Tipo"
+      }
+    }
+  },
+  "menu-item#fortificado": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Tipo"
+      }
+    }
+  },
+  "menu-item#frisante": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Tipo"
+      }
+    }
+  },
+  "menu-item#rose": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Tipo"
+      }
+    }
+  }  
 }

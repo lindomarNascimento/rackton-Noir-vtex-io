@@ -29,7 +29,7 @@
   },
   "notification.bar#home": {
     "props": {
-      "content": "exemplo"
+      // "content": "exemplo"
     }
   },
   "flex-layout.row#3-desktop": {
@@ -41,9 +41,6 @@
       "fullWidth": true
     },
     "children": [
-      "vtex.menu@2.x:menu#websites",
-      "flex-layout.col#spacer",
-      "vtex.menu@2.x:menu#institutional"
     ]
   },
   "flex-layout.col#spacer": {
