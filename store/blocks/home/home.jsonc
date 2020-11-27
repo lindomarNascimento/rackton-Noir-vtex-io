@@ -22,14 +22,10 @@
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
     "props": {
-      "height": 720,
+      "height": 560,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-        },
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+          "image": "https://agenciaeplus.vtexassets.com/assets/vtex.file-manager-graphql/images/bc10f59b-a002-4f2a-8623-84fcae8470dc___a5730ec9706b5308d90fa8f2b4aeefd1.jpg",
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
         }
       ]
@@ -42,8 +38,6 @@
         "tablet": 1,
         "phone": 1
       },
-      "infinite": true,
-      "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"
     }
   },
